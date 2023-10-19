@@ -13,7 +13,7 @@ Pay attention, the [Yggdrasil](https://github.com/yggdrasil-network/yggdrasil-go
 
 * View - Search Engine - Enable
 * Search Tab - Search plugins - Install new one - Import from Web link
-* `https://raw.githubusercontent.com/YGGverse/qbittorrent-yggtracker-search-plugin/main/yggtracker.py`
+* Provide `https://raw.githubusercontent.com/YGGverse/qbittorrent-yggtracker-search-plugin/main/yggtracker.py`
 
 ### Nodes
 
@@ -22,3 +22,16 @@ Feel free to add new YGGtracker node to the search providers in [nodes.js](https
 ### License
 
 * Sources - [MIT](https://github.com/YGGverse/qbittorrent-yggtracker-search-plugin/blob/main/LICENSE)
+
+#### Donate
+
+  + [BTC](https://www.blockchain.com/explorer/addresses/btc/bc1qngdf2kwty6djjqpk0ynkpq9wmlrmtm7e0c534y) | [LTC](https://live.blockcypher.com/ltc/address/LUSiqzKsfB1vBLvpu515DZktG9ioKqLyj7) | [XMR](835gSR1Uvka19gnWPkU2pyRozZugRZSPHDuFL6YajaAqjEtMwSPr4jafM8idRuBWo7AWD3pwFQSYRMRW9XezqrK4BEXBgXE) | [ZEPH](ZEPHsADHXqnhfWhXrRcXnyBQMucE3NM7Ng5ZVB99XwA38PTnbjLKpCwcQVgoie8EJuWozKgBiTmDFW4iY7fNEgSEWyAy4dotqtX)
+  + Support our servers by order [Linux VPS](https://www.yourserver.se/portal/aff.php?aff=610)
+
+#### Blog
+
+* [Mastodon](https://mastodon.social/@YGGverse)
+
+#### See also
+
+* [Distributed BitTorrent Registry for Yggdrasil ](https://github.com/YGGverse/YGGtracker)
