@@ -13,7 +13,7 @@ Pay attention, [Yggdrasil](https://github.com/yggdrasil-network) connection requ
 
 * View - Search Engine - Enable
 * Search Tab - Search plugins - Install new one - Import from Web link
-* Provide `https://raw.githubusercontent.com/YGGverse/qbittorrent-yggtracker-search-plugin/main/yggtracker.py`
+* Copy `https://raw.githubusercontent.com/YGGverse/qbittorrent-yggtracker-search-plugin/main/yggtracker.py`
 
 ### Nodes
 
