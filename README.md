@@ -17,7 +17,7 @@ Pay attention, [Yggdrasil](https://github.com/yggdrasil-network) connection requ
 
 ### Nodes
 
-Feel free to add new YGGtracker node to the search providers in [nodes.json](https://github.com/YGGverse/qbittorrent-yggtracker-search-plugin/blob/main/nodes.json)
+Feel free to add new YGGtracker instance to providers list in [nodes.json](https://github.com/YGGverse/qbittorrent-yggtracker-search-plugin/blob/main/nodes.json)
 
 ### License
 
