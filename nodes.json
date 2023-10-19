@@ -1,3 +1,28 @@
 [
-  "http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggtracker/api/torrents?%s"
+  {
+    "name":"YGGtracker",
+    "description":"YGGtracker official node",
+    "url":"http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggtracker/",
+    "api":"http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggtracker/api/torrents?%s",
+    "sensitive":null,
+    "yggdrasil":null,
+    "locale":"en",
+    "locales":
+    [
+      "en",
+      "cs",
+      "eo",
+      "fr",
+      "ka",
+      "de",
+      "he",
+      "it",
+      "lv",
+      "pl",
+      "pt",
+      "ru",
+      "es",
+      "uk"
+    ]
+  }
 ]
