@@ -34,4 +34,4 @@ Feel free to add new YGGtracker node to the search providers in [nodes.js](https
 
 #### See also
 
-* [Distributed BitTorrent Registry for Yggdrasil ](https://github.com/YGGverse/YGGtracker)
+* [YGGtracker](https://github.com/YGGverse/YGGtracker) - Distributed BitTorrent Registry for Yggdrasil
