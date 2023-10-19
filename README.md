@@ -2,7 +2,7 @@
 
 Multi-node search plugin for [qBittorrent](https://github.com/qbittorrent/qBittorrent/)
 
-Pay attention, the [Yggdrasil](https://github.com/yggdrasil-network/yggdrasil-go) instance required to receive search results from `0200::/7` resources!
+Pay attention, [Yggdrasil](https://github.com/yggdrasil-network) connection required to receive search results from `0200::/7` resources!
 
 ### Compatibility
 
