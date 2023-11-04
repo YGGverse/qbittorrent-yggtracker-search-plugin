@@ -12,6 +12,17 @@ class yggtracker(object):
 
   name = 'YGGtracker'
   url = 'https://github.com/YGGverse/YGGtracker'
+  supported_categories = [
+      'all',
+      'anime',
+      'books',
+      'games',
+      'movies',
+      'music',
+      'pictures',
+      'software',
+      'tv'
+  ]
 
   def __init__(self):
     pass
@@ -32,27 +43,20 @@ class yggtracker(object):
       # apply query request
       what = unquote(what)
       params = {
-        'query': what
+        'query': what,
+        'filter': 'true'
       }
 
-      # apply locales filter
-      if len(node['locales']) > 0:
-        params['locales'] = '|'.join(node['locales'])
+      # apply categories filter
+      categories = []
+      for category in node['categories'][cat]:
+        categories.append(category)
 
-      # apply sensitive filter
-      if node['sensitive'] is True:
-        params['sensitive'] = '1'
-      if node['sensitive'] is False:
-        params['sensitive'] = '0'
-
-      # apply yggdrasil filter
-      if node['yggdrasil'] is True:
-        params['yggdrasil'] = '1'
-      if node['yggdrasil'] is False:
-        params['yggdrasil'] = '0'
+      if len(categories) > 0:
+        params['categories'] = '|'.join(categories)
 
       # send api request
-      response = retrieve_url(node['api'] % urlencode(params))
+      response = retrieve_url(node['url'] % urlencode(params))
       response_json = json.loads(response)
 
       # check empty response
@@ -67,7 +71,7 @@ class yggtracker(object):
           'size': str(item['torrent']['file']['size']) + " B",
           'seeds': item['torrent']['scrape']['seeders'],
           'leech': item['torrent']['scrape']['leechers'],
-          'engine_url': node['url'],
-          'desc_link': item['torrent']['url'][node['locale']]
+          'engine_url': response_json['tracker']['url'],
+          'desc_link': item['torrent']['url']
         }
         prettyPrinter(res)
