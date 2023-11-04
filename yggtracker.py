@@ -12,17 +12,17 @@ class yggtracker(object):
 
   name = 'YGGtracker'
   url = 'https://github.com/YGGverse/YGGtracker'
-  supported_categories = [
-      'all',
-      'anime',
-      'books',
-      'games',
-      'movies',
-      'music',
-      'pictures',
-      'software',
-      'tv'
-  ]
+  supported_categories = {
+    'all':[],
+    'anime':[],
+    'books':[],
+    'games':[],
+    'movies':[],
+    'music':[],
+    'pictures':[],
+    'software':[],
+    'tv':[]
+  }
 
   def __init__(self):
     pass
