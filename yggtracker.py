@@ -1,4 +1,4 @@
-# VERSION: 1.00
+# VERSION: 1.1.0
 # LICENSE: MIT
 # AUTHORS: https://github.com/YGGverse/qbittorrent-yggtracker-search-plugin
 
